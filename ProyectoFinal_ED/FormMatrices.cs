@@ -16,5 +16,6 @@ namespace ProyectoFinal_ED
 		{
 			InitializeComponent();
 		}
+
 	}
 }

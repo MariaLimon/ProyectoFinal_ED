@@ -16,5 +16,10 @@ namespace ProyectoFinal_ED
 		{
 			InitializeComponent();
 		}
+
+		private void buttonMostrarMatrices_Click(object sender, EventArgs e)
+		{
+
+		}
 	}
 }

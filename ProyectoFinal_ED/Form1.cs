@@ -20,7 +20,7 @@ namespace ProyectoFinal_ED
 			// 
 			button1.BackColor = SystemColors.HotTrack;
 			button1.ForeColor = Color.White;
-			button1.Location = new Point(241, 173);
+			button1.Location = new Point(450, 275);
 			button1.Name = "button1";
 			button1.Size = new Size(94, 29);
 			button1.TabIndex = 0;
@@ -32,7 +32,7 @@ namespace ProyectoFinal_ED
 			// 
 			button2.BackColor = SystemColors.HotTrack;
 			button2.ForeColor = Color.White;
-			button2.Location = new Point(450, 173);
+			button2.Location = new Point(241, 275);
 			button2.Name = "button2";
 			button2.Size = new Size(94, 29);
 			button2.TabIndex = 1;
@@ -44,7 +44,7 @@ namespace ProyectoFinal_ED
 			// 
 			button3.BackColor = SystemColors.HotTrack;
 			button3.ForeColor = Color.White;
-			button3.Location = new Point(241, 275);
+			button3.Location = new Point(450, 173);
 			button3.Name = "button3";
 			button3.Size = new Size(94, 29);
 			button3.TabIndex = 2;
@@ -56,7 +56,7 @@ namespace ProyectoFinal_ED
 			// 
 			button4.BackColor = SystemColors.HotTrack;
 			button4.ForeColor = Color.White;
-			button4.Location = new Point(450, 275);
+			button4.Location = new Point(241, 173);
 			button4.Name = "button4";
 			button4.Size = new Size(94, 29);
 			button4.TabIndex = 3;
@@ -69,9 +69,9 @@ namespace ProyectoFinal_ED
 			label1.AutoSize = true;
 			label1.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
 			label1.ForeColor = Color.Navy;
-			label1.Location = new Point(193, 33);
+			label1.Location = new Point(157, 28);
 			label1.Name = "label1";
-			label1.Size = new Size(413, 37);
+			label1.Size = new Size(524, 46);
 			label1.TabIndex = 4;
 			label1.Text = "Proyecto final estructura de datos";
 			// 
