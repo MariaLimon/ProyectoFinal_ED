@@ -13,6 +13,7 @@ namespace ProyectoFinal_ED
 			button2 = new Button();
 			button3 = new Button();
 			button4 = new Button();
+			label1 = new Label();
 			SuspendLayout();
 			// 
 			// button1
@@ -49,6 +50,7 @@ namespace ProyectoFinal_ED
 			button3.TabIndex = 2;
 			button3.Text = "Listas";
 			button3.UseVisualStyleBackColor = false;
+			button3.Click += button3_Click;
 			// 
 			// button4
 			// 
@@ -62,38 +64,63 @@ namespace ProyectoFinal_ED
 			button4.UseVisualStyleBackColor = false;
 			button4.Click += button4_Click;
 			// 
+			// label1
+			// 
+			label1.AutoSize = true;
+			label1.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
+			label1.ForeColor = Color.Navy;
+			label1.Location = new Point(193, 33);
+			label1.Name = "label1";
+			label1.Size = new Size(413, 37);
+			label1.TabIndex = 4;
+			label1.Text = "Proyecto final estructura de datos";
+			// 
 			// Form1
 			// 
 			BackColor = SystemColors.ActiveCaption;
 			ClientSize = new Size(821, 471);
+			Controls.Add(label1);
 			Controls.Add(button4);
 			Controls.Add(button3);
 			Controls.Add(button2);
 			Controls.Add(button1);
 			ForeColor = Color.Coral;
 			Name = "Form1";
-			Load += Form1_Load;
 			ResumeLayout(false);
+			PerformLayout();
 		}
 
+		//boton de pilas
 		private void button1_Click(object sender, EventArgs e)
 		{
-
+			FormPilas pilas = new FormPilas();
+			//mostrar formulario de pilas
+			pilas.Show();
 		}
 
+		//boton de matrices
 		private void button2_Click(object sender, EventArgs e)
 		{
 
+			FormMatrices matrices = new FormMatrices();
+			//mostrar el fomulario matrices
+			matrices.Show();
 		}
 
-		private void Form1_Load(object sender, EventArgs e)
-		{
-
-		}
-
+		//boton de colas
 		private void button4_Click(object sender, EventArgs e)
 		{
+			FormColas colas = new FormColas();
+			//mostrar formulario de colas
+			colas.Show();
+		}
 
+		//boton  de listas
+		private void button3_Click(object sender, EventArgs e)
+		{
+			FormListas listas = new FormListas();
+			//mostrar formulario de listas
+			listas.Show();
 		}
 	}
 }

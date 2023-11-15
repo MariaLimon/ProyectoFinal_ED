@@ -31,5 +31,6 @@
 		private Button button2;
 		private Button button3;
 		private Button button4;
+		private Label label1;
 	}
 }
