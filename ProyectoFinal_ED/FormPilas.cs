@@ -28,9 +28,10 @@ namespace ProyectoFinal_ED
 
 		}
 
-		private void btnRegresar_Click(object sender, EventArgs e)
+		private void buttonRegresar_Click(object sender, EventArgs e)
 		{
 			this.Close();
+
 		}
 
 		private void buttonGuardarPila_Click(object sender, EventArgs e)
@@ -38,5 +39,6 @@ namespace ProyectoFinal_ED
 			String nombrePelicula = boxEntradaDatos.Text; //obtener texto del tesbox
 			MessageBox.Show("la pelicula es:" + nombrePelicula); //mostrar
 		}
-	}
+
+    }
 }

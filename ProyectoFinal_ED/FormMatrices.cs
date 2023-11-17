@@ -17,5 +17,12 @@ namespace ProyectoFinal_ED
 			InitializeComponent();
 		}
 
-	}
+        private void buttonGuardarMatrices_Click(object sender, EventArgs e)
+        {
+            String nombrePelicula = boxEntradaDatos.Text; //obtener texto del tesbox
+            MessageBox.Show("la pelicula es:" + nombrePelicula); //mostrar
+        }
+
+        
+    }
 }

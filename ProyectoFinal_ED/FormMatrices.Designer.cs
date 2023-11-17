@@ -28,98 +28,106 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			label1 = new Label();
-			buttonGuardarMatrices = new Button();
-			buttonEliminarMatrices = new Button();
-			buttonEditarMatrices = new Button();
-			buttonMostrarMatrices = new Button();
-			buttonBuscarMatrices = new Button();
-			buttonOrdenarMatrices = new Button();
-			SuspendLayout();
-			// 
-			// label1
-			// 
-			label1.AutoSize = true;
-			label1.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
-			label1.ForeColor = SystemColors.ControlLightLight;
-			label1.Location = new Point(386, 48);
-			label1.Name = "label1";
-			label1.Size = new Size(148, 46);
-			label1.TabIndex = 0;
-			label1.Text = "Matrices";
-			// 
-			// buttonGuardarMatrices
-			// 
-			buttonGuardarMatrices.Location = new Point(338, 289);
-			buttonGuardarMatrices.Name = "buttonGuardarMatrices";
-			buttonGuardarMatrices.Size = new Size(94, 29);
-			buttonGuardarMatrices.TabIndex = 1;
-			buttonGuardarMatrices.Text = "Guardar";
-			buttonGuardarMatrices.UseVisualStyleBackColor = true;
-			// 
-			// buttonEliminarMatrices
-			// 
-			buttonEliminarMatrices.Location = new Point(495, 289);
-			buttonEliminarMatrices.Name = "buttonEliminarMatrices";
-			buttonEliminarMatrices.Size = new Size(94, 29);
-			buttonEliminarMatrices.TabIndex = 2;
-			buttonEliminarMatrices.Text = "Eliminar";
-			buttonEliminarMatrices.UseVisualStyleBackColor = true;
-			// 
-			// buttonEditarMatrices
-			// 
-			buttonEditarMatrices.Location = new Point(338, 372);
-			buttonEditarMatrices.Name = "buttonEditarMatrices";
-			buttonEditarMatrices.Size = new Size(94, 29);
-			buttonEditarMatrices.TabIndex = 3;
-			buttonEditarMatrices.Text = "Editar";
-			buttonEditarMatrices.UseVisualStyleBackColor = true;
-			// 
-			// buttonMostrarMatrices
-			// 
-			buttonMostrarMatrices.Location = new Point(495, 372);
-			buttonMostrarMatrices.Name = "buttonMostrarMatrices";
-			buttonMostrarMatrices.Size = new Size(94, 29);
-			buttonMostrarMatrices.TabIndex = 4;
-			buttonMostrarMatrices.Text = "Mostrar";
-			buttonMostrarMatrices.UseVisualStyleBackColor = true;
-			// 
-			// buttonBuscarMatrices
-			// 
-			buttonBuscarMatrices.Location = new Point(495, 451);
-			buttonBuscarMatrices.Name = "buttonBuscarMatrices";
-			buttonBuscarMatrices.Size = new Size(94, 29);
-			buttonBuscarMatrices.TabIndex = 6;
-			buttonBuscarMatrices.Text = "Buscar";
-			buttonBuscarMatrices.UseVisualStyleBackColor = true;
-			// 
-			// buttonOrdenarMatrices
-			// 
-			buttonOrdenarMatrices.Location = new Point(338, 451);
-			buttonOrdenarMatrices.Name = "buttonOrdenarMatrices";
-			buttonOrdenarMatrices.Size = new Size(94, 29);
-			buttonOrdenarMatrices.TabIndex = 5;
-			buttonOrdenarMatrices.Text = "Ordenar";
-			buttonOrdenarMatrices.UseVisualStyleBackColor = true;
-			// 
-			// FormMatrices
-			// 
-			AutoScaleDimensions = new SizeF(8F, 20F);
-			AutoScaleMode = AutoScaleMode.Font;
-			BackColor = SystemColors.ActiveCaption;
-			ClientSize = new Size(914, 600);
-			Controls.Add(buttonOrdenarMatrices);
-			Controls.Add(buttonBuscarMatrices);
-			Controls.Add(buttonMostrarMatrices);
-			Controls.Add(buttonEditarMatrices);
-			Controls.Add(buttonEliminarMatrices);
-			Controls.Add(buttonGuardarMatrices);
-			Controls.Add(label1);
-			Margin = new Padding(3, 4, 3, 4);
-			Name = "FormMatrices";
-			Text = "FormMatrices";
-			ResumeLayout(false);
-			PerformLayout();
+            this.label1 = new System.Windows.Forms.Label();
+            this.buttonGuardarMatrices = new System.Windows.Forms.Button();
+            this.buttonEliminarMatrices = new System.Windows.Forms.Button();
+            this.buttonEditarMatrices = new System.Windows.Forms.Button();
+            this.buttonMostrarMatrices = new System.Windows.Forms.Button();
+            this.buttonBuscarMatrices = new System.Windows.Forms.Button();
+            this.buttonOrdenarMatrices = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(338, 36);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(117, 37);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Matrices";
+            // 
+            // buttonGuardarMatrices
+            // 
+            this.buttonGuardarMatrices.Location = new System.Drawing.Point(296, 217);
+            this.buttonGuardarMatrices.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonGuardarMatrices.Name = "buttonGuardarMatrices";
+            this.buttonGuardarMatrices.Size = new System.Drawing.Size(82, 22);
+            this.buttonGuardarMatrices.TabIndex = 1;
+            this.buttonGuardarMatrices.Text = "Guardar";
+            this.buttonGuardarMatrices.UseVisualStyleBackColor = true;
+            this.buttonGuardarMatrices.Click += new System.EventHandler(this.buttonGuardarMatrices_Click);
+            // 
+            // buttonEliminarMatrices
+            // 
+            this.buttonEliminarMatrices.Location = new System.Drawing.Point(433, 217);
+            this.buttonEliminarMatrices.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonEliminarMatrices.Name = "buttonEliminarMatrices";
+            this.buttonEliminarMatrices.Size = new System.Drawing.Size(82, 22);
+            this.buttonEliminarMatrices.TabIndex = 2;
+            this.buttonEliminarMatrices.Text = "Eliminar";
+            this.buttonEliminarMatrices.UseVisualStyleBackColor = true;
+            // 
+            // buttonEditarMatrices
+            // 
+            this.buttonEditarMatrices.Location = new System.Drawing.Point(296, 279);
+            this.buttonEditarMatrices.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonEditarMatrices.Name = "buttonEditarMatrices";
+            this.buttonEditarMatrices.Size = new System.Drawing.Size(82, 22);
+            this.buttonEditarMatrices.TabIndex = 3;
+            this.buttonEditarMatrices.Text = "Editar";
+            this.buttonEditarMatrices.UseVisualStyleBackColor = true;
+            // 
+            // buttonMostrarMatrices
+            // 
+            this.buttonMostrarMatrices.Location = new System.Drawing.Point(433, 279);
+            this.buttonMostrarMatrices.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonMostrarMatrices.Name = "buttonMostrarMatrices";
+            this.buttonMostrarMatrices.Size = new System.Drawing.Size(82, 22);
+            this.buttonMostrarMatrices.TabIndex = 4;
+            this.buttonMostrarMatrices.Text = "Mostrar";
+            this.buttonMostrarMatrices.UseVisualStyleBackColor = true;
+            // 
+            // buttonBuscarMatrices
+            // 
+            this.buttonBuscarMatrices.Location = new System.Drawing.Point(433, 338);
+            this.buttonBuscarMatrices.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonBuscarMatrices.Name = "buttonBuscarMatrices";
+            this.buttonBuscarMatrices.Size = new System.Drawing.Size(82, 22);
+            this.buttonBuscarMatrices.TabIndex = 6;
+            this.buttonBuscarMatrices.Text = "Buscar";
+            this.buttonBuscarMatrices.UseVisualStyleBackColor = true;
+            // 
+            // buttonOrdenarMatrices
+            // 
+            this.buttonOrdenarMatrices.Location = new System.Drawing.Point(296, 338);
+            this.buttonOrdenarMatrices.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonOrdenarMatrices.Name = "buttonOrdenarMatrices";
+            this.buttonOrdenarMatrices.Size = new System.Drawing.Size(82, 22);
+            this.buttonOrdenarMatrices.TabIndex = 5;
+            this.buttonOrdenarMatrices.Text = "Ordenar";
+            this.buttonOrdenarMatrices.UseVisualStyleBackColor = true;
+           
+            // 
+            // FormMatrices
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonOrdenarMatrices);
+            this.Controls.Add(this.buttonBuscarMatrices);
+            this.Controls.Add(this.buttonMostrarMatrices);
+            this.Controls.Add(this.buttonEditarMatrices);
+            this.Controls.Add(this.buttonEliminarMatrices);
+            this.Controls.Add(this.buttonGuardarMatrices);
+            this.Controls.Add(this.label1);
+            this.Name = "FormMatrices";
+            this.Text = "FormMatrices";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
 		}
 
 		#endregion
@@ -131,5 +139,5 @@
 		private Button buttonMostrarMatrices;
 		private Button buttonBuscarMatrices;
 		private Button buttonOrdenarMatrices;
-	}
+    }
 }

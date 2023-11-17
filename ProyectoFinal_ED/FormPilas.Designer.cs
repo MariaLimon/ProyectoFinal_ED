@@ -28,129 +28,129 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			titulo = new Label();
-			boxEntradaDatos = new TextBox();
-			buttonRegresar = new Button();
-			buttonGuardarPila = new Button();
-			buttonOrdenarPila = new Button();
-			buttonEliminarPila = new Button();
-			buttonEditarPila = new Button();
-			buttonMostrarPila = new Button();
-			buttonBuscarPila = new Button();
-			SuspendLayout();
-			// 
-			// titulo
-			// 
-			titulo.AutoSize = true;
-			titulo.BackColor = SystemColors.ActiveCaption;
-			titulo.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
-			titulo.ForeColor = SystemColors.ControlLightLight;
-			titulo.Location = new Point(414, 51);
-			titulo.Name = "titulo";
-			titulo.Size = new Size(86, 46);
-			titulo.TabIndex = 0;
-			titulo.Text = "Pilas";
-			titulo.Click += label1_Click;
-			// 
-			// boxEntradaDatos
-			// 
-			boxEntradaDatos.BackColor = SystemColors.InactiveBorder;
-			boxEntradaDatos.BorderStyle = BorderStyle.None;
-			boxEntradaDatos.Location = new Point(378, 145);
-			boxEntradaDatos.Margin = new Padding(3, 4, 3, 4);
-			boxEntradaDatos.Name = "boxEntradaDatos";
-			boxEntradaDatos.PlaceholderText = "Nombre de la pelicula";
-			boxEntradaDatos.Size = new Size(161, 20);
-			boxEntradaDatos.TabIndex = 1;
-			// 
-			// buttonRegresar
-			// 
-			buttonRegresar.Location = new Point(796, 553);
-			buttonRegresar.Margin = new Padding(3, 4, 3, 4);
-			buttonRegresar.Name = "buttonRegresar";
-			buttonRegresar.Size = new Size(86, 31);
-			buttonRegresar.TabIndex = 8;
-			buttonRegresar.Text = "Regresar";
-			buttonRegresar.UseVisualStyleBackColor = true;
-			buttonRegresar.Click += btnRegresar_Click;
-			// 
-			// buttonGuardarPila
-			// 
-			buttonGuardarPila.Location = new Point(335, 257);
-			buttonGuardarPila.Margin = new Padding(3, 4, 3, 4);
-			buttonGuardarPila.Name = "buttonGuardarPila";
-			buttonGuardarPila.Size = new Size(94, 31);
-			buttonGuardarPila.TabIndex = 2;
-			buttonGuardarPila.Text = "Guardar";
-			buttonGuardarPila.UseVisualStyleBackColor = true;
-			buttonGuardarPila.Click += buttonGuardarPila_Click;
-			// 
-			// buttonOrdenarPila
-			// 
-			buttonOrdenarPila.Location = new Point(335, 420);
-			buttonOrdenarPila.Name = "buttonOrdenarPila";
-			buttonOrdenarPila.Size = new Size(94, 29);
-			buttonOrdenarPila.TabIndex = 6;
-			buttonOrdenarPila.Text = "Ordenar";
-			buttonOrdenarPila.UseVisualStyleBackColor = true;
-			// 
-			// buttonEliminarPila
-			// 
-			buttonEliminarPila.Location = new Point(492, 258);
-			buttonEliminarPila.Name = "buttonEliminarPila";
-			buttonEliminarPila.Size = new Size(94, 29);
-			buttonEliminarPila.TabIndex = 3;
-			buttonEliminarPila.Text = "Eliminar";
-			buttonEliminarPila.UseVisualStyleBackColor = true;
-			// 
-			// buttonEditarPila
-			// 
-			buttonEditarPila.Location = new Point(335, 341);
-			buttonEditarPila.Name = "buttonEditarPila";
-			buttonEditarPila.Size = new Size(94, 29);
-			buttonEditarPila.TabIndex = 4;
-			buttonEditarPila.Text = "Editar";
-			buttonEditarPila.UseVisualStyleBackColor = true;
-			// 
-			// buttonMostrarPila
-			// 
-			buttonMostrarPila.Location = new Point(492, 341);
-			buttonMostrarPila.Name = "buttonMostrarPila";
-			buttonMostrarPila.Size = new Size(94, 29);
-			buttonMostrarPila.TabIndex = 5;
-			buttonMostrarPila.Text = "Mostrar";
-			buttonMostrarPila.UseVisualStyleBackColor = true;
-			// 
-			// buttonBuscarPila
-			// 
-			buttonBuscarPila.Location = new Point(492, 420);
-			buttonBuscarPila.Name = "buttonBuscarPila";
-			buttonBuscarPila.Size = new Size(94, 29);
-			buttonBuscarPila.TabIndex = 7;
-			buttonBuscarPila.Text = "Buscar";
-			buttonBuscarPila.UseVisualStyleBackColor = true;
-			// 
-			// FormPilas
-			// 
-			AutoScaleDimensions = new SizeF(8F, 20F);
-			AutoScaleMode = AutoScaleMode.Font;
-			BackColor = SystemColors.ActiveCaption;
-			ClientSize = new Size(914, 600);
-			Controls.Add(buttonOrdenarPila);
-			Controls.Add(buttonBuscarPila);
-			Controls.Add(buttonMostrarPila);
-			Controls.Add(buttonEditarPila);
-			Controls.Add(buttonEliminarPila);
-			Controls.Add(buttonGuardarPila);
-			Controls.Add(buttonRegresar);
-			Controls.Add(boxEntradaDatos);
-			Controls.Add(titulo);
-			Margin = new Padding(3, 4, 3, 4);
-			Name = "FormPilas";
-			Text = "FormPilas";
-			Load += FormPilas_Load;
-			ResumeLayout(false);
-			PerformLayout();
+            this.titulo = new System.Windows.Forms.Label();
+            this.boxEntradaDatos = new System.Windows.Forms.TextBox();
+            this.buttonRegresar = new System.Windows.Forms.Button();
+            this.buttonGuardarPila = new System.Windows.Forms.Button();
+            this.buttonOrdenarPila = new System.Windows.Forms.Button();
+            this.buttonEliminarPila = new System.Windows.Forms.Button();
+            this.buttonEditarPila = new System.Windows.Forms.Button();
+            this.buttonMostrarPila = new System.Windows.Forms.Button();
+            this.buttonBuscarPila = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // titulo
+            // 
+            this.titulo.AutoSize = true;
+            this.titulo.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.titulo.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.titulo.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.titulo.Location = new System.Drawing.Point(362, 38);
+            this.titulo.Name = "titulo";
+            this.titulo.Size = new System.Drawing.Size(71, 37);
+            this.titulo.TabIndex = 0;
+            this.titulo.Text = "Pilas";
+            // 
+            // boxEntradaDatos
+            // 
+            this.boxEntradaDatos.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.boxEntradaDatos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.boxEntradaDatos.Location = new System.Drawing.Point(331, 109);
+            this.boxEntradaDatos.Name = "boxEntradaDatos";
+            this.boxEntradaDatos.PlaceholderText = "Nombre de la pelicula";
+            this.boxEntradaDatos.Size = new System.Drawing.Size(141, 16);
+            this.boxEntradaDatos.TabIndex = 1;
+            // 
+            // buttonRegresar
+            // 
+            this.buttonRegresar.Location = new System.Drawing.Point(696, 415);
+            this.buttonRegresar.Name = "buttonRegresar";
+            this.buttonRegresar.Size = new System.Drawing.Size(75, 23);
+            this.buttonRegresar.TabIndex = 8;
+            this.buttonRegresar.Text = "Regresar";
+            this.buttonRegresar.UseVisualStyleBackColor = true;
+            this.buttonRegresar.Click += new System.EventHandler(this.buttonRegresar_Click);
+            // 
+            // buttonGuardarPila
+            // 
+            this.buttonGuardarPila.Location = new System.Drawing.Point(293, 193);
+            this.buttonGuardarPila.Name = "buttonGuardarPila";
+            this.buttonGuardarPila.Size = new System.Drawing.Size(82, 23);
+            this.buttonGuardarPila.TabIndex = 2;
+            this.buttonGuardarPila.Text = "Guardar";
+            this.buttonGuardarPila.UseVisualStyleBackColor = true;
+            this.buttonGuardarPila.Click += new System.EventHandler(this.buttonGuardarPila_Click);
+            // 
+            // buttonOrdenarPila
+            // 
+            this.buttonOrdenarPila.Location = new System.Drawing.Point(293, 315);
+            this.buttonOrdenarPila.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonOrdenarPila.Name = "buttonOrdenarPila";
+            this.buttonOrdenarPila.Size = new System.Drawing.Size(82, 22);
+            this.buttonOrdenarPila.TabIndex = 6;
+            this.buttonOrdenarPila.Text = "Ordenar";
+            this.buttonOrdenarPila.UseVisualStyleBackColor = true;
+            // 
+            // buttonEliminarPila
+            // 
+            this.buttonEliminarPila.Location = new System.Drawing.Point(430, 194);
+            this.buttonEliminarPila.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonEliminarPila.Name = "buttonEliminarPila";
+            this.buttonEliminarPila.Size = new System.Drawing.Size(82, 22);
+            this.buttonEliminarPila.TabIndex = 3;
+            this.buttonEliminarPila.Text = "Eliminar";
+            this.buttonEliminarPila.UseVisualStyleBackColor = true;
+            // 
+            // buttonEditarPila
+            // 
+            this.buttonEditarPila.Location = new System.Drawing.Point(293, 256);
+            this.buttonEditarPila.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonEditarPila.Name = "buttonEditarPila";
+            this.buttonEditarPila.Size = new System.Drawing.Size(82, 22);
+            this.buttonEditarPila.TabIndex = 4;
+            this.buttonEditarPila.Text = "Editar";
+            this.buttonEditarPila.UseVisualStyleBackColor = true;
+            // 
+            // buttonMostrarPila
+            // 
+            this.buttonMostrarPila.Location = new System.Drawing.Point(430, 256);
+            this.buttonMostrarPila.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonMostrarPila.Name = "buttonMostrarPila";
+            this.buttonMostrarPila.Size = new System.Drawing.Size(82, 22);
+            this.buttonMostrarPila.TabIndex = 5;
+            this.buttonMostrarPila.Text = "Mostrar";
+            this.buttonMostrarPila.UseVisualStyleBackColor = true;
+            // 
+            // buttonBuscarPila
+            // 
+            this.buttonBuscarPila.Location = new System.Drawing.Point(430, 315);
+            this.buttonBuscarPila.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonBuscarPila.Name = "buttonBuscarPila";
+            this.buttonBuscarPila.Size = new System.Drawing.Size(82, 22);
+            this.buttonBuscarPila.TabIndex = 7;
+            this.buttonBuscarPila.Text = "Buscar";
+            this.buttonBuscarPila.UseVisualStyleBackColor = true;
+            // 
+            // FormPilas
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonOrdenarPila);
+            this.Controls.Add(this.buttonBuscarPila);
+            this.Controls.Add(this.buttonMostrarPila);
+            this.Controls.Add(this.buttonEditarPila);
+            this.Controls.Add(this.buttonEliminarPila);
+            this.Controls.Add(this.buttonGuardarPila);
+            this.Controls.Add(this.buttonRegresar);
+            this.Controls.Add(this.boxEntradaDatos);
+            this.Controls.Add(this.titulo);
+            this.Name = "FormPilas";
+            this.Text = "FormPilas";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
 		}
 
 		#endregion
